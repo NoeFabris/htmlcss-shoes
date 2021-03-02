@@ -37,31 +37,53 @@ body .container{
 }
 .scarpablu h1{
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: yellow;
-    font-size: 7rem;
+    font-size: 200%;
     text-align: center;
 }
 .scarpabianca h1{
-    position: relative;
-    top: 40%;
+    position: absolute;
+    top: 180%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: yellow;
-    font-size: 7rem;
+    font-size: 200%;
     text-align: center;
 }
 .scarpaverde h1{
-    position: relative;
-    top: 40%;
+    position: absolute;
+    top: 280%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: yellow;
-    font-size: 7rem;
+    font-size: 200%;
     text-align: center;
 }
+nav ul li{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+}
+nav{
+    position: fixed;
+    left: 75%;
+    width: 100%;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
 
 /* .scarpablu, .scarpabianca, .scarpaverde img{
     left: 50%;
