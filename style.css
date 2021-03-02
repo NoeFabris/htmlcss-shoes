@@ -4,19 +4,70 @@
     box-sizing: border-box;
     font-family: 'DotGothic16', sans-serif;
 }
+body .container{
+    width: 100%;
+    height: 100vh;
+}
 .scarpablu{
     background-color: red;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
 }
-.scarpablu, .scarpabianca, .scarpaverde img{
-    position: absolute;
-    top: 50%;
+.scarpabianca{
+    background-color: green;
+}
+.scarpaverde{
+    background-color: blue;
+}
+.scarpablu img{
+    position: relative;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.scarpablu, .scarpabianca, .scarpaverde h1{
+.scarpabianca img{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.scarpaverde img{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.scarpablu h1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 7rem;
+    text-align: center;
+}
+.scarpabianca h1{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 7rem;
+    text-align: center;
+}
+.scarpaverde h1{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 7rem;
+    text-align: center;
+}
+
+/* .scarpablu, .scarpabianca, .scarpaverde img{
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+/* .scarpablu, .scarpabianca, .scarpaverde h1{
     color: yellow;
     font-size: 7rem;
     text-align: center;
@@ -24,7 +75,7 @@
     top: 75vh;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 
 
